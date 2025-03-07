@@ -15,14 +15,9 @@ class PostsView extends StatelessWidget {
     final TextEditingController bodyController = TextEditingController();
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('JSONPlaceholder Demo'),
-        elevation: 0,
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-      ),
       body: Column(
         children: [
-          // Search and Filter Bar
+          // Search and Filter Bar  
           Container(
             padding: const EdgeInsets.all(16),
             color:
